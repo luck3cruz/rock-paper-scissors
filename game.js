@@ -131,7 +131,7 @@ function game() {
         }
         tie = false; 
         playRound(playerSelection, computerSelection);
-        console.log(playerSelection + " vs " + computerSelection + "\n " + playerCount + "-" + co);
+        console.log(playerSelection + " vs " + computerSelection + "\n " + playerCount + "-" + computerCount);
     }
     if (computerCount > playerCount) {
         console.log("Computer wins!");
